@@ -74,3 +74,6 @@ def exmaple(payload):
   ```
 # Contribution
 
+- This is an open source project. Any contribution would be greatly appreciated!
+
+![Made with Love in India](https://madewithlove.org.in/badge.svg)
