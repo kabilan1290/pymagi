@@ -29,3 +29,11 @@
 - url encode/decode
 - html encode/decode
 ```
+# Usage:
+
+- Make sure you have python installed on your system.
+- Run the following command.
+
+```
+pip install pymagi
+```
