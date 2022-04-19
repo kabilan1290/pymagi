@@ -12,7 +12,7 @@
 - You need to run CyberChef API server in the background for pymagi to work.
 - https://github.com/gchq/CyberChef-server#installing - Visit here to know the installation of cyberchef server.
 
-# Recepies:
+# Recipies:
 
 - Currently ``pymagi`` can handle the following recepies.
 
@@ -50,3 +50,27 @@ pip install pymagi
 # Proof of work:
 
 <a href="https://youtu.be/PnwiZyUZ9bc">Watch here</a>
+
+# Adding extra recipe:
+- Below code is how the package is formed.
+- You can get recipe from cyberchef to create your own function.
+```
+def exmaple(payload):
+	connectioncheck()
+
+	data = json.dumps({"input": payload,"recipe":{"op":"From example","args":["A-Za-z0-9+/=",True]},"outputType":"string"})
+	API_ENDPOINT = "http://localhost:3000/bake"
+	headers_dict = {"Content-Type":"application/json"}
+
+	# #sending post request and saving response as response object
+	r = requests.post(url = API_ENDPOINT, headers=headers_dict,data = data)
+  
+	# # # # extracting response text 
+	value_received = json.loads(r.text)
+
+	value = value_received['value']
+
+	return value
+  ```
+# Contribution
+
