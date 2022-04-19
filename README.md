@@ -11,6 +11,7 @@
 
 - You need to run CyberChef API server in the background for pymagi to work.
 - https://github.com/gchq/CyberChef-server#installing - Visit here to know the installation of cyberchef server.
+- Python libraires ==> [requests , json ]
 
 # Recipies:
 
