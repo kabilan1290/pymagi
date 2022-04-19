@@ -1,5 +1,8 @@
 ### pymagi 
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+
+
 # Description:
 - ``pymagi`` is a python based client for <a href="https://github.com/gchq/CyberChef-server">CyberChef</a> API server.
 - ``pymagi`` is used to bake cyberchef recipies in python program.
