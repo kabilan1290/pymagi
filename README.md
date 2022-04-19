@@ -49,4 +49,4 @@ pip install pymagi
 
 # Proof of work:
 
-<a hre="https://youtu.be/PnwiZyUZ9bc">Watch here</a>
+<a href="https://youtu.be/PnwiZyUZ9bc">Watch here</a>
