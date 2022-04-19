@@ -37,7 +37,7 @@
 ```
 pip install pymagi
 ```
-----------------------------------------
+- Python3
 ```
 >>> from pymagi import *
 >>> a = morseencode("This_is_test")
@@ -49,4 +49,4 @@ pip install pymagi
 
 # Proof of work:
 
-<a hre="https://youtu.be/PnwiZyUZ9bc"Watch here</a>
+<a hre="https://youtu.be/PnwiZyUZ9bc">Watch here</a>
