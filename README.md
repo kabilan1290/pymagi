@@ -17,7 +17,7 @@
 - Currently ``pymagi`` can handle the following recepies.
 
 ```
-- base64 encode/decode
+- base64 encode/decode 
 - morse encode/decode
 - base85 encode/decode
 - braillie encode/decode
@@ -37,3 +37,16 @@
 ```
 pip install pymagi
 ```
+----------------------------------------
+```
+>>> from pymagi import *
+>>> a = morseencode("This_is_test")
+>>> a
+'- .... .. ... ..--.- .. ... ..--.- - . ... -'
+>>> morsedecode(a)
+'THIS_IS_TEST'
+```
+
+# Proof of work:
+
+<a hre="https://youtu.be/PnwiZyUZ9bc"Watch here</a>
