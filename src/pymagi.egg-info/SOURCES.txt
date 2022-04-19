@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pymagi.egg-info/PKG-INFO
+src/pymagi.egg-info/SOURCES.txt
+src/pymagi.egg-info/dependency_links.txt
+src/pymagi.egg-info/requires.txt
+src/pymagi.egg-info/top_level.txt

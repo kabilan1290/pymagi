@@ -36,21 +36,20 @@ setup(
         # Indicate who your project is intended for
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-
+        "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
 
     ],
 
-    keywords="cyberchef","ctf tool","ctf toolkit","decoder",  # Optional
+    keywords=["cyberchef","ctf tool","ctf toolkit","decoder"],  # Optional
 
-    py_modules="pymagi"
+    py_modules="pymagi",
  
-    package_dir={"": "src"},  # Optional
+    package_dir={"":"src"},  # Optional
 
 
-    python_requires=">=3.6, <4",
+    python_requires=">3",
 
-    install_requires=["requests","json"],  # Optional
- 
+    install_requires=["requests"]  ,
+ )
 
-)
